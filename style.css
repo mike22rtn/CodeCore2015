@@ -6,5 +6,11 @@ body {
 
 h1 {
 	background-color: white;
-	padding: 40px;
+	position: center;
+}
+
+#header {
+	width: 850px;
+	height: 200px;
+	background-color: white;
 }
