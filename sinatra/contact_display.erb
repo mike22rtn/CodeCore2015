@@ -1,0 +1,13 @@
+<a href="/all">&lt; All Contacts</a>
+
+<h1>Displaying  <%= @contact.name %></h1>
+
+<p>Email: <%= @contact.email %></p>
+<p>Phone Number: <%= @contact.phone_number %></p>
+<p>Message: <%= @contact.message %></p>
+
+<h2>Write a note</h2>
+<form method="post" action="/addnote"> 
+	<textarea name=""></textarea>
+	<input type="" value="submit note!">
+</form>

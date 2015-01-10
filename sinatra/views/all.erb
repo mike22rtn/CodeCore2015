@@ -1,0 +1,22 @@
+<h1>Listing all contacts</h1>
+
+<table class="listing_contacts">
+<thead>
+
+	<tr>
+		<th>Name</th>
+		<th>Email</th>
+		<th>Phone</th>
+		<th>Message</th>
+	</tr>
+</thead>
+</table>
+
+<% @contacts.each do |contact| %>
+	<tr>
+		<href ="/contacts/<%= contact.id %>"><td><%= contact.name %></td></a>
+		<td><%= contact.email %></td>
+		<td><%= contact.phone_number %></td>
+		<td><%= contact.message %></td>
+	</tr>
+<% end %>
